@@ -569,8 +569,7 @@ _data = {
 
 [node name="Game" type="Node2D" unique_id=1385985185]
 
-[node name="GameManager" type="Node" parent="." unique_id=1259276506]
-unique_name_in_owner = true
+[node name="GameManager" type="Node" parent="." unique_id=581365708]
 script = ExtResource("1_gee14")
 
 [node name="TileMap" type="TileMap" parent="." unique_id=11021983]
@@ -603,13 +602,6 @@ limit_bottom = 70
 limit_smoothed = true
 position_smoothing_enabled = true
 position_smoothing_speed = 8.0
-
-[node name="ScoreLabel" type="Label" parent="Player/Camera2D" unique_id=459086241]
-offset_left = -128.0
-offset_top = -86.0
-offset_right = -67.0
-offset_bottom = -63.0
-text = "Score: 0"
 
 [node name="Killzone" parent="." unique_id=78483745 instance=ExtResource("5_iywne")]
 position = Vector2(182, 170)
